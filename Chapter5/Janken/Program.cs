@@ -1,5 +1,6 @@
 ﻿using System;
 using Janken.Players;
+using Janken.Tactics;
 
 namespace Janken
 {
@@ -11,12 +12,12 @@ namespace Janken
 
             Player murata = new Murata("村田さん");
 
-            Tactics murataTactics = new RandomTactics();
+            ITactics murataTactics = new StoneOnlyTactics();
             murata.Tactics = murataTactics;
 
             Player yamada = new Yamada("山田さん");
 
-            Tactics yamadaTactics = new RandomTactics();
+            ITactics yamadaTactics = new RandomTactics();
             yamada.Tactics = yamadaTactics;
 
             judge.StartJanken(murata, yamada);

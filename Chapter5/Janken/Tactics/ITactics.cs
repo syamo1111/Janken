@@ -7,7 +7,7 @@ namespace Janken
     /// <summary>
     /// じゃんけん戦略インターフェイス
     /// </summary>
-    public interface Tactics
+    public interface ITactics
     {
         /// <summary>
         /// 戦略を読み、ジャンケンの手を得る。

@@ -7,7 +7,7 @@ namespace Janken
     /// <summary>
     /// ランダムに手を決める戦略クラス。
     /// </summary>
-    public class RandomTactics : Tactics
+    public class RandomTactics : ITactics
     {
         private static int seed = Environment.TickCount;
 

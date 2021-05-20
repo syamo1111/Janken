@@ -21,7 +21,7 @@ namespace Janken
         /// <summary>
         /// 戦略
         /// </summary>
-        public Tactics Tactics { get; set; }
+        public ITactics Tactics { get; set; }
 
         /// <summary>
         /// コンストラクタ
