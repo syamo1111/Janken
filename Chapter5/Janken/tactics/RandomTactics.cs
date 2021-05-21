@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Janken.Players;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Janken
+namespace Janken.Tactics
 {
     /// <summary>
     /// ランダムに手を決める戦略クラス。

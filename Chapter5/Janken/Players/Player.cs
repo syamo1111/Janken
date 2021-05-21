@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Janken.Tactics;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Janken
+namespace Janken.Players
 {
     public class Player
     {

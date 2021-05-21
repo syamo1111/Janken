@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Janken
+namespace Janken.Tactics
 {
     /// <summary>
     /// じゃんけん戦略インターフェイス

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Janken.Players;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
