@@ -12,7 +12,7 @@ namespace Janken
 
             Player murata = new Murata("村田さん");
 
-            ITactics murataTactics = new AskTactics();
+            ITactics murataTactics = new CyclicTactics();
             murata.Tactics = murataTactics;
 
             Player yamada = new Yamada("山田さん");

@@ -17,7 +17,7 @@ namespace Janken.Players
         /// <summary>
         /// 名前
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; }
 
         /// <summary>
         /// 戦略
